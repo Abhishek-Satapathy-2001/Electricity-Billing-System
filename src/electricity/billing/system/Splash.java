@@ -25,7 +25,7 @@ public class Splash extends JFrame implements Runnable{
             setLocation(700-((i+x)/2),400-(i/2));
             
             try{
-                Thread.sleep(6);
+                Thread.sleep(2);
             }catch(Exception e){
                 e.printStackTrace();
             }
@@ -37,7 +37,7 @@ public class Splash extends JFrame implements Runnable{
     }
     public void run(){
             try{
-                Thread.sleep(6000);
+                Thread.sleep(4000);
                 setVisible(false);
                 
                 //log-in form
